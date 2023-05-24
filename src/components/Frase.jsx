@@ -5,7 +5,7 @@ const Frase = () => {
     <section className="my-5">
       <h2>Personaje</h2>
       <hr />
-      <img src="" alt="" />
+      <img className="mb-3" src="https://cdn.glitch.me/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FApuNahasapeemapetilon.png" alt="" />
       <Card>
         <Card.Body>
           <figure>
