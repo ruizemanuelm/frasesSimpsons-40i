@@ -1,19 +1,19 @@
 import { Card } from "react-bootstrap";
 
-const Frase = ({personaje}) => {
+const Frase = () => {
   return (
     <section className="my-5">
-      <h2>{personaje.character}</h2>
+      <h2>Nombre de personaje</h2>
       <hr />
-      <img className="mb-3" src={personaje.image} alt={personaje.character} />
+      <img className="mb-3" src='' alt='' />
       <Card>
         <Card.Body>
           <figure>
             <blockquote className="blockquote">
-              <p>{personaje.quote}</p>
+              <p>frase</p>
             </blockquote>
             <figcaption className="blockquote-footer">
-            {personaje.character} in <cite title="Source Title">The simpson</cite>
+            personaje x in <cite title="Source Title">The simpson</cite>
             </figcaption>
           </figure>
         </Card.Body>
