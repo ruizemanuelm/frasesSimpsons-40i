@@ -30,7 +30,7 @@ const consultarAPI = async ()=> {
       <Container className="text-center my-5">
         <img src={logo} alt="Logo de los simpson" className="w-50" />
         <Frase personaje={personaje} />
-        <Button variant="warning" >
+        <Button variant="warning" onClick={consultarAPI}>
           Obtener frase
         </Button>
       </Container>
